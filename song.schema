@@ -1,0 +1,12 @@
+CREATE TABLE song (
+    id                  INTEGER PRIMARY KEY,
+    title               TEXT NOT NULL,
+    album               TEXT NOT NULL,
+    artist              TEXT NOT NULL,
+    genre               TEXT NOT NULL,
+    country             TEXT NOT NULL,
+    released            TEXT NOT NULL,
+    duration            TEXT NOT NULL,
+    released_timestamp  INTEGER,
+    duration_float      REAL
+)
